@@ -24,7 +24,7 @@ The agent operates as a **LangGraph State Machine**, following a defined cycle t
 
 1. **Clone the repository**
 ```bash
-   git clone [your-repo-url]
+   git clone langgraph-agentcore-demo
    cd langgraph-agentcore-demo
 ```
 
