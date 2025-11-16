@@ -20,6 +20,12 @@ The agent operates as a **LangGraph State Machine**, following a defined cycle t
 6.  **Execute & Fetch:** Once validated, the `query_existing_table` tool runs the final query against Redshift to retrieve the actual data.
 7.  **Summarize & Respond:** The main agent LLM (Claude 3 Sonnet) formats the raw data results into a clear, human-readable answer for the user.
 
+## Quick Start
+```
+pip install -r requirements.txt
+streamlit run agent_ui.py
+```
+
 ### Why does this exist?
 
 This architecture is designed to solve two critical challenges in database-querying agents:
