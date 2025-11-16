@@ -1,4 +1,4 @@
-## 💡 Main Idea
+## 💡 Text2SQL Agent Using LangGraph & AWS Bedrock AgentCore
 
 ### What is this?
 
