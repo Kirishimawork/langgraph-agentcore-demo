@@ -20,11 +20,30 @@ The agent operates as a **LangGraph State Machine**, following a defined cycle t
 6.  **Execute & Fetch:** Once validated, the `query_existing_table` tool runs the final query against Redshift to retrieve the actual data.
 7.  **Summarize & Respond:** The main agent LLM (Claude 3 Sonnet) formats the raw data results into a clear, human-readable answer for the user.
 
-## Quick Start
+## Installation & Setup
+
+1. **Clone the repository**
+```bash
+   git clone [your-repo-url]
+   cd langgraph-agentcore-demo
 ```
-pip install -r requirements.txt
-streamlit run agent_ui.py
+
+2. **Install dependencies**
+```bash
+   pip install -r requirements.txt
 ```
+
+3. **Configure AWS credentials**
+```bash
+   aws configure
+```
+
+4. **Launch the Streamlit UI**
+```bash
+   streamlit run agent_ui.py
+```
+   
+   The web interface will open automatically at `http://localhost:8501`
 
 ### Why does this exist?
 
